@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+body {
+}
+
+.head1 {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  margin-left: 570px;
+  margin-top: 100px;
+  font-weight: 400;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  color: white;
+  position: absolute;
+  z-index: 100;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.days {
+  margin-left: 410px;
+  margin-top: 430px;
+}
+
+.hours {
+  margin-left: 602px;
+  margin-top: 430px;
+}
+
+.minutes {
+  margin-left: 792px;
+  margin-top: 430px;
+}
+
+.seconds {
+  margin-left: 990px;
+  margin-top: 430px;
+}
+
+.pattern {
+  position: absolute;
+  margin-top: 615px;
+}
+
+.stars {
+  z-index: -200;
+  background-color: rgb(32, 12, 32);
+  height: 1200px;
+  position: absolute;
+}
+
+.num1,
+.num2,
+.num3,
+.num4 {
+  color: hsl(345, 95%, 68%);
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: hsl(236, 21%, 26%);
+  z-index: -5;
+  font-size: 100px;
+  text-align: center;
+}
+
+.num1 {
+  margin-left: 350px;
+  margin-top: 250px;
+}
+
+.num2 {
+  margin-left: 550px;
+  margin-top: 250px;
+}
+
+.num3 {
+  margin-left: 750px;
+  margin-top: 250px;
+}
+
+.num4 {
+  margin-left: 950px;
+  margin-top: 250px;
+}
+
+.facebook,
+.instagram,
+.pinterest {
+  position: absolute;
+}
+
+.facebook {
+  margin-left: 660px;
+  margin-top: 710px;
+}
+
+.pinterest {
+  margin-left: 710px;
+  margin-top: 710px;
+}
+
+.instagram {
+  margin-left: 760px;
+  margin-top: 710px;
+}
+
+.launch {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 510px;
+  opacity: 0.7;
+  background-color: rgba(159, 123, 175, 0.665);
+  border: 1px solid white;
+  text-align: center;
+}
+
+.submit {
+  position: absolute;
+  margin-left: 890px;
+  margin-top: 506px;
+  background-color: hsla(345, 95%, 68%, 0.813);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.label {
+  color: white;
+  position: absolute;
+  margin-top: 512px;
+  margin-left: 485px;
+  font-size: 20px;
+}
